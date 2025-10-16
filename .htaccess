@@ -1,0 +1,6 @@
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+# Block direct access to config folder
+RewriteRule ^config/ - [F,L]
